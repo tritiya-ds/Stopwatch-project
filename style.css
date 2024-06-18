@@ -1,0 +1,121 @@
+*{
+    font-family: "poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    height: 200vh;
+    background: #001219;
+    
+}
+.container{
+    background: #001219 ;
+    padding: 10px;
+    border: 2px solid white;
+    border-style: solid dashed;
+    height: auto;
+    width: 24rem;
+    border-radius: 3rem;
+    box-shadow: 8px 8px 15px black,
+                8px 8px 15px black;
+    margin: 35px 500px;
+    
+     
+    
+}
+.stopwatch {
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 30px;
+    border: 3px  white;
+    border-style: solid  ;
+    border-radius: 50%;
+    height: 19rem;
+    width: 19rem;
+    color: white;
+    justify-content: center;
+    background: linear-gradient(45deg,#ccffaa,#067d68,#1e5b53);
+}
+h1{
+    margin-top: 50px;
+}
+#time {
+    font-size: 3em;
+    margin-top: 20px;
+}
+.operators {
+    margin-top: 30px;
+    margin-right: 0%;
+    margin-left: 17%;
+    align-items:center;
+    display: flex;
+}
+button {
+    border:1px solid azure;
+    color: white;
+    width: 70px;
+    height: 50px;
+    margin: 0 10px;
+    font-size: 17px;
+    background: transparent;
+    cursor: pointer;
+    /* position:relative; */
+    border-radius: 50px;
+    text-align:center ;
+    padding: 10px;
+    color: white;
+    align-content: center;
+    align-items: center;
+    margin-right: 30px;
+    margin-left: -25px;
+    /* display: flex; */
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+button a{
+    color: white;
+    text-decoration: none;
+}
+button:hover{
+    box-shadow: 0px 1px 15px #d8e2dc80;
+    color: white;
+    background: linear-gradient(45deg,#ccffaa,#067d68,#1e5b53);
+
+
+}
+#lap{
+    padding: 0 20px;
+}
+#startstop{
+    padding: 0 15px;
+}
+.container ol{
+    padding: 0 60px;
+    margin-left: 16px;
+
+}
+#laps li{
+    font-family: "poppins",sans-serif;
+    font-size: 15px;
+    color: azure;
+    text-align: right;
+    
+}
+ 
+#startstop:active,
+#pause:active,
+#reset:active,
+#lap:active{
+    transform: scale(0.9);
+    transition:all 0.3s ease-in-out;
+}
+#laps,#reset{
+    transition: all 0.3s ease;
+
+}
+
+
+
+
